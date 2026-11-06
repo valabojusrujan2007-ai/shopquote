@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" role="img" aria-labelledby="title desc">
+  <title id="title">Isometric block, 150 by 75 by 60 millimetres</title>
+  <desc id="desc">A blue isometric rectangular block with length 150 millimetres, width 75 millimetres, and height 60 millimetres.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#edf2f7" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#344e68"/>
+    </marker>
+  </defs>
+  <rect width="760" height="560" rx="18" fill="#fbfdff"/>
+  <rect x="1" y="1" width="758" height="558" rx="17" fill="url(#grid)" stroke="#dfe7f0"/>
+  <text x="38" y="48" fill="#1c2e43" font-family="Arial, sans-serif" font-size="21" font-weight="700">ISOMETRIC BLOCK</text>
+  <text x="38" y="72" fill="#73849a" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.2">DIMENSIONS IN MILLIMETRES</text>
+
+  <!-- Vertices: A(270,300), B(515,422), C(148,361), D(393,483), translated 98px upward for the top. -->
+  <!-- Top face -->
+  <path d="M270 202 L515 324 L393 385 L148 263 Z" fill="#e5f2ff" stroke="#28577f" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Length-facing side -->
+  <path d="M270 300 L515 422 L515 324 L270 202 Z" fill="#a9cdee" stroke="#28577f" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Width-facing side -->
+  <path d="M270 300 L148 361 L148 263 L270 202 Z" fill="#c8e0f7" stroke="#28577f" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Visible lower perimeter and crisp corners -->
+  <path d="M515 422 L393 483 L148 361" fill="none" stroke="#28577f" stroke-width="2.2" stroke-linejoin="round"/>
+
+  <!-- Length dimension -->
+  <g stroke="#344e68" stroke-width="1.5" fill="none">
+    <path d="M270 300 L270 344 M515 422 L515 466"/>
+    <path d="M270 344 L515 466" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  </g>
+  <g transform="translate(392 405) rotate(26.4)">
+    <rect x="-42" y="-13" width="84" height="25" rx="5" fill="#fbfdff" stroke="#d6e0eb"/>
+    <text x="0" y="5" text-anchor="middle" fill="#20364d" font-family="Arial, sans-serif" font-size="14" font-weight="700">150 mm</text>
+  </g>
+
+  <!-- Width dimension -->
+  <g stroke="#344e68" stroke-width="1.5" fill="none">
+    <path d="M148 361 L118 341 M270 300 L240 280"/>
+    <path d="M118 341 L240 280" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  </g>
+  <g transform="translate(179 310) rotate(-26.6)">
+    <rect x="-37" y="-13" width="74" height="25" rx="5" fill="#fbfdff" stroke="#d6e0eb"/>
+    <text x="0" y="5" text-anchor="middle" fill="#20364d" font-family="Arial, sans-serif" font-size="14" font-weight="700">75 mm</text>
+  </g>
+
+  <!-- Height dimension -->
+  <g stroke="#344e68" stroke-width="1.5" fill="none">
+    <path d="M270 300 L218 300 M270 202 L218 202"/>
+    <path d="M218 300 L218 202" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  </g>
+  <rect x="176" y="237" width="58" height="25" rx="5" fill="#fbfdff" stroke="#d6e0eb"/>
+  <text x="205" y="254" text-anchor="middle" fill="#20364d" font-family="Arial, sans-serif" font-size="14" font-weight="700">60 mm</text>
+
+  <g transform="translate(555 220)">
+    <rect width="166" height="92" rx="10" fill="#ffffff" stroke="#dfe7f0"/>
+    <text x="16" y="25" fill="#7a8ba0" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1">OVERALL SIZE</text>
+    <text x="16" y="53" fill="#1c2e43" font-family="Arial, sans-serif" font-size="16" font-weight="700">150 × 75 × 60</text>
+    <text x="16" y="74" fill="#73849a" font-family="Arial, sans-serif" font-size="11">Length × width × height</text>
+  </g>
+  <text x="555" y="335" fill="#93a1b2" font-family="Arial, sans-serif" font-size="10">Illustrative isometric view</text>
+</svg>
